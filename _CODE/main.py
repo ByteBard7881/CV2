@@ -5,7 +5,7 @@ from PIL import ImageGrab
 import mss
 
 def basic():
-    img = cv2.imread('./back.jpg') # Load image
+    img = cv2.imread('./img.jpg') # Load image
     img = cv2.resize(img, (0, 0), fx=0.5, fy=0.5) # Resize image
     cv2.imshow('Image', img) # Show image
     # Wait for infinite amount of time for a key to press and terminate image show
